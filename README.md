@@ -1,2 +1,4 @@
+https://github.com/module-federation/module-federation-examples/tree/master
+
 https://github.com/module-federation/module-federation-examples/blob/master/react-18-code-splitting/app1/config/module-federation.js
 https://github.com/module-federation/module-federation-examples/blob/master/react-18-code-splitting/app2/config/module-federation.js
