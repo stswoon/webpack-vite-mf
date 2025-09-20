@@ -2,7 +2,10 @@
 
 import React, {Suspense} from "react";
 
+
+
 const ViteMf = React.lazy(() => import("remoteViteMf/vite-mf"));
+const WebpackMf = React.lazy(() => import("webpackMfApp/WebpackMf"));
 
 function App() {
     return (
@@ -11,7 +14,9 @@ function App() {
             <Suspense fallback={<div>Loading...</div>}>
                 <ViteMf/>
             </Suspense>
-            {/*<WebpackMf/>*/}
+            <Suspense fallback={<div>Loading...</div>}>
+                <WebpackMf/>
+            </Suspense>
         </div>
     );
 }

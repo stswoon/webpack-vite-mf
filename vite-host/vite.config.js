@@ -19,6 +19,13 @@ export default defineConfig({
                     entryGlobalName: "remoteViteMf",
                     shareScope: "default",
                 },
+                webpackMfApp: {
+                    type: "var",
+                    // name: "webpackMfApp",
+                    entry: "http://localhost:3101/remote_webpackMf.js",
+                    // entryGlobalName: "webpackMfApp",
+                    // shareScope: "default",
+                },
             },
             // shared: ["vue"],
         }),
