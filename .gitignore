@@ -1,1 +1,15 @@
 .idea
+
+vite-host/.__mf__temp
+vite-host/node_modules
+vite-host/dist
+
+vite-mf/.__mf__temp
+vite-mf/node_modules
+vite-mf/dist
+
+webpack-host/build
+webpack-host/node_modules
+
+webpack-mf/build
+webpack-mf/node_modules
